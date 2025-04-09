@@ -2,10 +2,10 @@
 
 // EmailJS configuration
 const EMAILJS_CONFIG = {
-    serviceId: "service_aihubstation", // Will be replaced with actual service ID
-    templateId: "template_aihubstation", // Will be replaced with actual template ID
+    serviceId: "service_nzl2pfp", // Will be replaced with actual service ID
+    templateId: "template_7afhxd7", // Will be replaced with actual template ID
     userId: "6NEocuKSBkcjFHk6b", // EmailJS API Key from knowledge items
-    contactFormTemplateId: "template_contact_aihubstation" // Will be replaced with actual template ID
+    contactFormTemplateId: "template_7afhxd7" // Will be replaced with actual template ID
 };
 
 // Function to initialize EmailJS
