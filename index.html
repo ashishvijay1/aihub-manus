@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIHUB-STATION | Learn. Build. Earn.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/community-experts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="images/placeholder-logo.svg" alt="AIHUB-STATION Logo">
+                <div class="logo-text">
+                    <h1>AIHUB-STATION</h1>
+                    <p class="tagline">Learn. Build. Earn.</p>
+                </div>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#join-community">Join Community</a></li>
+                <li><a href="#members">Community Members</a></li>
+                <li><a href="#login" class="btn-login">Login / SignUp</a></li>
+                <li><a href="#experts">Experts</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#workshops">Workshops</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to the Agentic World of Automation & AI Integration!</h1>
+            <p>Your gateway to a new world of building agentic workflows with AI</p>
+            <div class="hero-buttons">
+                <a href="#join-community" class="btn btn-primary">Join Community</a>
+                <a href="#features" class="btn btn-secondary">Explore Features</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About AIHUB-STATION</h2>
+            <p>AIHUB-STATION is your gateway to a new world of building agentic workflows with AI. Learn No Code / Low Code platforms like n8n, OpenAI, Copilot Studio, Airtable, and more. Empower yourself to automate workflows and build your own AI agents, even as a student!</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Integration Features</h2>
+            <div class="features-grid">
+                <!-- Feature cards will be dynamically added by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Community Section -->
+    <section id="join-community" class="join-community">
+        <div class="container">
+            <h2>Join the AI Agents Community</h2>
+            <p>Connect with like-minded individuals, learn from experts, and grow your skills in the world of AI agents and automation.</p>
+            <button class="btn btn-primary open-form">Join Now</button>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Upcoming Events & Workshops</h2>
+            <div class="events-grid">
+                <!-- Event cards will be dynamically added by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Login/Signup Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login / Sign Up</h2>
+            <form id="user-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="role">Role</label>
+                    <select id="role" name="role" required>
+                        <option value="">Select your role</option>
+                        <option value="Student">Student</option>
+                        <option value="Professional">Professional</option>
+                        <option value="Expert">Expert</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="age-group">Age Group</label>
+                    <select id="age-group" name="age-group" required>
+                        <option value="">Select your age group</option>
+                        <option value="Under 18">Under 18</option>
+                        <option value="18-24">18-24</option>
+                        <option value="25-34">25-34</option>
+                        <option value="35-44">35-44</option>
+                        <option value="45+">45+</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Community Join Modal -->
+    <div id="community-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Join Our Community</h2>
+            <form id="community-form">
+                <div class="form-group">
+                    <label for="comm-name">Full Name</label>
+                    <input type="text" id="comm-name" name="comm-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="comm-email">Email</label>
+                    <input type="email" id="comm-email" name="comm-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="category">Category</label>
+                    <select id="category" name="category" required>
+                        <option value="">Select your category</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="interest">Interest</label>
+                    <select id="interest" name="interest" required>
+                        <option value="">Select your interest</option>
+                        <option value="AI Agents">AI Agents</option>
+                        <option value="Workflow Automation">Workflow Automation</option>
+                        <option value="No-Code Tools">No-Code Tools</option>
+                        <option value="API Integration">API Integration</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Join Community</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/placeholder-logo.svg" alt="AIHUB-STATION Logo">
+                    <h3>AIHUB-STATION</h3>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#join-community">Join Community</a></li>
+                        <li><a href="#events">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> info@aihub-station.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AIHUB-STATION. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS CDN -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="js/airtable-api.js"></script>
+    <script src="js/airtable-integration.js"></script>
+    <script src="js/emailjs-integration.js"></script>
+    <script src="js/community-events.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
