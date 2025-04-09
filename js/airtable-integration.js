@@ -5,8 +5,8 @@
 
 // Airtable configuration (to be filled with actual credentials)
 const AIRTABLE_CONFIG = {
-    apiKey: "YOUR_AIRTABLE_API_KEY", // Will be replaced with actual API key
-    baseId: "YOUR_AIRTABLE_BASE_ID", // Will be replaced with actual base ID
+    apiKey: "patG0oOxSznrmSRRo.1d6dcc52408d9ef44d96f24a2bbd069f93ac112b2902ed341400bdc77caeca26", // Will be replaced with actual API key
+    baseId: "appcy4auv6RZOBFCF", // Will be replaced with actual base ID
     userTableName: "Users",
     communityTableName: "Community",
     eventsTableName: "Events"
